@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "chrono-node": "^2.8.2",
+    "date-fns": "^4.1.0",
+    "zod": "^3.25.49"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
