@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "time": {
-      "command": "node",
-      "args": ["./time.js"]
+      "command": "npx",
+      "args": ["github:scottoasis/time-mcp"]
     }
   }
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import * as chrono from "chrono-node";
@@ -113,7 +115,7 @@ const main = async () => {
           .describe(
             `Text describing the date range to search within, which will be parsed by chrono-node.
     e.g. "last week", "yesterday", "17 Aug - 19 Aug", etc.
-    If not provided, will search from the beginning of time.`
+    If not provided, will search from the beginning of time.`,
           )
           .optional(),
       },
@@ -143,7 +145,7 @@ const main = async () => {
             },
           ],
         };
-      }
+      },
     );
 
     const stdioTransport = new StdioServerTransport();
